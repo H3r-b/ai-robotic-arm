@@ -18,7 +18,7 @@ An intelligent chess system that combines computer vision, digital board renderi
 
 ## Project Structure
 
-
+```
 AI ROB ARM/
 │── markers/                    # Marker assets (if used)
 │── pieces/                     # PNG chess pieces
@@ -31,12 +31,11 @@ AI ROB ARM/
 │ ├── playable_test.py          # Playable GUI (Player vs AI)
 │ ├── test_main.py              # Playable GUI (Player vs AI)
 │
-│── venv/                       # Virtual environment
 │── requirements.txt
 │── README.md
 │── .gitignore
 
-
+```
 ---
 
 ## File Descriptions
@@ -68,21 +67,21 @@ Detects the chessboard from camera input.
 ## Setup Instructions
 
 ### 1. Clone Repository
-
+```
 git clone <your-repo-link>
 cd "AI ROB ARM"
-
+```
 
 ### 2. Create Virtual Environment
-
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
 
 ### 3. Install Dependencies
-
+```
 pip install -r requirements.txt
-
+```
 
 ### 4. Add Stockfish
 
@@ -98,24 +97,24 @@ stockfish/
 ## How to Run
 
 ### Test Stockfish (Console)
-
+```
 python src/test_chess.py
-
+```
 
 ### Play Chess (GUI + AI)
-
+```
 python src/playable_test.py
-
+```
 
 ### Detect Board + Top View + GUI
-
+```
 python src/detect_main.py
-
+```
 
 ### Full System Test
-
+```
 python src/test_main.py
-
+```
 
 ---
 
