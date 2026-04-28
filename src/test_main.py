@@ -59,7 +59,7 @@ sq = INNER_SIZE // 8
 
 piece_imgs = load_pieces(sq)
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Default board setup
 board = [
