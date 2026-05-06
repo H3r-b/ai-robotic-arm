@@ -4,7 +4,7 @@ import numpy as np
 CHESSBOARD_SIZE = (7, 7)
 BOARD_SIZE = 800
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while True:
     ret, frame = cap.read()

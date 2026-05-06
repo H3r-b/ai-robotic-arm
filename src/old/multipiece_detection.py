@@ -96,6 +96,7 @@ def format_label(piece):
     return f"{color} {names[piece[1]]}"
 
 
+
 # ======================
 # INIT
 # ======================

@@ -59,7 +59,7 @@ sq = INNER_SIZE // 8
 
 piece_imgs = load_pieces(sq)
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # Default board setup
 board = [
@@ -195,7 +195,7 @@ while True:
                     (20, 40),
                     cv2.FONT_HERSHEY_SIMPLEX, 1,
                     (0, 0, 255), 2)
-
+ 
     # ======================
     # LAYOUT
     # ======================

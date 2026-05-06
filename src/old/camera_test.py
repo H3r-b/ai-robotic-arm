@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture(1)   # use your external cam index
+cap = cv2.VideoCapture(0)   # use your external cam index
 
 while True:
     ret, frame = cap.read()
